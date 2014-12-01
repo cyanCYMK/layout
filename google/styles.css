@@ -10,3 +10,26 @@ body {
   padding-top: 112px;
   text-align: center;
 }
+.searchbar {
+  height: 102px;
+}
+.searchbar input {
+  width: 572px;
+  height: 30px;
+  border: 1px solid;
+  border-color: rgba(0,0,0,.15);
+  display: block;
+}
+.searchbar input:hover {
+  border-color: rgba(0,0,0,.30);
+}
+.searchbar input:focus {
+  border: 1px solid blue;
+}
+.searchbar button {
+  margin: 16px 8px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 6px 6px;
+}
