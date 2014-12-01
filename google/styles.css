@@ -1,5 +1,41 @@
 body {
   /* rules go here */
+  margin: 0;
+}
+button {
+  box-shadow: none;
+}
+.topbar {
+  font-family: Arial, sans-serif;
+  color: #404040;
+  font-size: 13px;
+  height: 60px;
+  text-align: right;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #d0d0d0;
+}
+.topbar button {
+  display: inline;
+  padding: 6px 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #4386FA;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.topbar ul {
+  list-style-type: none;
+  display: inline;
+}
+.topbar ul li {
+  display: inline;
+  padding-left: 12px;
+}
+.topbar div {
+  display: inline;
+  position: relative;
+  top: 25%;
 }
 .logo {
   text-align: center;
@@ -28,7 +64,7 @@ body {
 }
 .searchbar button {
   margin: 16px 8px;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   padding: 6px 6px;
